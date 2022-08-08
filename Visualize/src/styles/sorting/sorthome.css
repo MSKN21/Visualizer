@@ -1,0 +1,60 @@
+#bars_div {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin: 0 auto;
+  min-width: 900px;
+}
+
+.bars {
+  width: 10px;
+  background-color: rgb(130, 177, 253);
+  margin-left: 5px;
+  z-index: 1;
+}
+
+#main_box {
+  z-index: 1;
+}
+#icons_div {
+  height: 70px;
+  width: 100%;
+  /* background-color: rgba(70, 82, 104, 0.767); */
+  position: fixed;
+  bottom: 5px;
+  z-index: 2;
+}
+
+#icon_in_div {
+  margin: 5px auto;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  width: 140px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.685);
+  border-radius: 3px;
+}
+
+#iconsrt,
+#iconpath {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  margin: 0px 10px;
+  /* background-color: burlywood; */
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.685);
+}
+
+#iconsrt:hover,
+#iconpath:hover {
+  transform: scale(1.05);
+}
+
+#blk_div {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  z-index: 5;
+}

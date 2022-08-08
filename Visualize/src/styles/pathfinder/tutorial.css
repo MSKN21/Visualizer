@@ -1,0 +1,188 @@
+.tut_main_div {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.tut_main {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 900px;
+  /* left: 26%;
+  transform: translateX(-26%);
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%); */
+  margin-top: calc((100vh - 600px) / 2);
+  margin-left: calc((100vw - 900px) / 2);
+
+  z-index: 5;
+  display: grid;
+  grid-template-rows: 92% 8%;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 25, 65);
+}
+
+@media (max-width: 1700px) {
+  .tut_main {
+    /* left: 22%;
+    transform: translateX(-22%); */
+  }
+}
+
+.tut_btns {
+  /* border-radius: 0px 0px 5px 5px; */
+  background-color: rgb(56, 75, 110);
+  display: grid;
+  grid-template-columns: 74% 13% 13%;
+}
+
+.tut_btn1,
+.tut_btn2,
+.tut_btn3 {
+  background-color: bisque;
+  width: fit-content;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-top: 6px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  height: 25px;
+  cursor: pointer;
+}
+
+.tut_btn1 {
+  margin-left: 10px;
+}
+
+.tut_btn1:hover,
+.tut_btn2:hover,
+.tut_btn3:hover {
+  background-color: rgb(252, 206, 154);
+}
+
+.tut_info1 {
+  background-image: url(../../storage/cubes.jpg);
+  background-size: 100% 100%;
+  height: 560px;
+}
+
+.tut_pathtitle {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 75px;
+  padding-top: 50px;
+  background-size: 100% 100%;
+}
+
+.tut_algopic {
+  display: block;
+  margin: 0 auto;
+  width: 330px;
+  height: 270px;
+  padding-top: 50px;
+  background-size: 100% 100%;
+}
+
+.tut_mazepic {
+  display: block;
+  margin: 0 auto;
+  width: 330px;
+  height: 330px;
+  padding-top: 50px;
+  background-size: 100% 100%;
+}
+
+.tut_wallpic {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 250px;
+  padding-top: 20px;
+  background-size: 100% 100%;
+}
+
+.tut_bmbpic {
+  display: block;
+  margin: 0 auto;
+  width: 370px;
+  height: 250px;
+  padding-top: 20px;
+  background-size: 100% 100%;
+}
+
+.tut_navs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  max-width: 880px;
+  height: 50px;
+  /* padding-top: 5px; */
+  background-size: 100% 100%;
+}
+
+.tut_drags {
+  display: grid;
+  margin: 0 auto;
+  width: 500px;
+  height: 150px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 5px;
+}
+
+.tut_navs img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slideshow_container {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.mySlides h1 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(80, 80, 122);
+  font-size: 42px;
+}
+
+.slideshow_container {
+  background-image: url("../../storage/tutbck1.webp");
+  background-size: 100% 100%;
+}
+
+.mySlides p {
+  margin: 0;
+  padding: 10px 3px;
+  text-align: center;
+  color: rgb(59, 68, 116);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.tut_info1 h1 {
+  color: rgb(188, 255, 210);
+  font-size: 45px;
+}
+
+.tut_info1 p {
+  color: rgb(253, 253, 255);
+  font-size: 30px;
+  letter-spacing: 1.2;
+  line-height: 33px;
+}
+
+.tut_info8 h1 {
+  padding-top: 200px;
+}
+
+.tut_info7 h1 {
+  padding: 7px 0px;
+}
